@@ -1,0 +1,25 @@
+UBUNTU
+aubakirova7@lab01-ubuntu:~$ ping -c 4 192.168.64.4
+PING 192.168.64.4 (192.168.64.4) 56(84) bytes of data.
+64 bytes from 192.168.64.4: icmp_seq=1 ttl=128 time=1.39 ms
+64 bytes from 192.168.64.4: icmp_seq=2 ttl=128 time=1.34 ms
+64 bytes from 192.168.64.4: icmp_seq=3 ttl=128 time=1.33 ms
+64 bytes from 192.168.64.4: icmp_seq=4 ttl=128 time=1.30 ms
+
+--- 192.168.64.4 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3006ms
+rtt min/avg/max/mdev = 1.298/1.338/1.388/0.032 ms
+aubakirova7@lab01-ubuntu:~$ 
+
+WINDOWS
+aubakirova7@lab01-ubuntu:~$ ping -c 4 192.168.64.4
+PING 192.168.64.4 (192.168.64.4) 56(84) bytes of data.
+64 bytes from 192.168.64.4: icmp_seq=1 ttl=128 time=1.39 ms
+64 bytes from 192.168.64.4: icmp_seq=2 ttl=128 time=1.34 ms
+64 bytes from 192.168.64.4: icmp_seq=3 ttl=128 time=1.33 ms
+64 bytes from 192.168.64.4: icmp_seq=4 ttl=128 time=1.30 ms
+
+--- 192.168.64.4 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3006ms
+rtt min/avg/max/mdev = 1.298/1.338/1.388/0.032 ms
+aubakirova7@lab01-ubuntu:~$ 
