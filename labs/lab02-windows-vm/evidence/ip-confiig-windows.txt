@@ -1,0 +1,33 @@
+C:\Users\Samira>ipconfig /all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : WIN-BRC62OO7064
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Red Hat VirtIO Ethernet Adapter
+   Physical Address. . . . . . . . . : C6-B2-E4-6F-F4-0A
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv6 Address. . . . . . . . . . . : fdb2:97ba:d76:f3f9:55b8:18f0:13b5:88a6(Preferred)
+   Temporary IPv6 Address. . . . . . : fdb2:97ba:d76:f3f9:6841:d09c:443d:29c3(Preferred)
+   Link-local IPv6 Address . . . . . : fe80::3c4e:7550:e5db:2ab1%6(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.64.4(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Saturday, October 24, 2026 11:40:02 PM
+   Lease Expires . . . . . . . . . . : Sunday, October 25, 2026 1:40:02 AM
+   Default Gateway . . . . . . . . . : fe80::8047:15ff:fe6c:4766%6
+                                       192.168.64.1
+   DHCP Server . . . . . . . . . . . : 192.168.64.1
+   DHCPv6 IAID . . . . . . . . . . . : 113685220
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-32-6F-49-B4-C6-B2-E4-6F-F4-0A
+   DNS Servers . . . . . . . . . . . : fe80::8047:15ff:fe6c:4766%6
+                                       192.168.64.1
+                                       fe80::8047:15ff:fe6c:4766%6
+   NetBIOS over Tcpip. . . . . . . . : Enabled
