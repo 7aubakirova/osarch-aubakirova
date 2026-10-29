@@ -10,7 +10,7 @@ How I found it: I used the command `system_profiler SPHardwareDataType` in the m
 Service Manual: [Apple Self Service Repair Manual for MacBook Air 13-inch M5](https://cdsassets.apple.com/live/6GJYWVAV/information/macbook-air-13inch-m5-2026-info.pdf)
 
 ## 2. Components
-![MacBook Air (M5) Annotated Assembly](evidence/manual-figures/annotated-specs.png.pnj)
+![MacBook Air (M5) Annotated Assembly](evidence/manual-figures/annotated-specs.png)
 1. What: Apple M5 System on Chip (SoC) containing CPU, GPU, and Unified Memory.
 Connects to: Soldered directly to the main logic board.
 Limits: BGA (soldered); memory is on-package and cannot be expanded or replaced.
