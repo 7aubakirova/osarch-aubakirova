@@ -20,13 +20,12 @@ This guide walks an operator through setting up a clean, isolated virtual machin
 ## Step 2. Select Operating System and ISO
 1. Click **Linux**.
 2. Under **Boot ISO Image**, click **Browse**.
-3. Select your downloaded `ubuntu-24.04-live-server-arm64.iso` installation image.
+3. Select your downloaded `ubuntu-26.04-live-server-arm64.iso` installation image.
 4. Click **Continue**.
 
-*Why this ISO:* The ARM64 architecture must match the physical Mac chip. Attempting to boot an x86/Intel ISO under virtualization will immediately crash.
+*Why this ISO:* The ARM64 architecture must match the physical Apple Silicon Mac chip. Attempting to boot an x86/Intel ISO under virtualization will fail to boot or crash immediately.
 
-> **Check:** The file path to the ISO appears in the selection box without warning indicators.
-
+> **Check:** The file path to `ubuntu-26.04-live-server-arm64.iso` appears in the selection box without warning indicators.
 ---
 
 ## Step 3. Hardware Resource Allocation
