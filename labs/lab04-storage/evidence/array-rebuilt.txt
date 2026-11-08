@@ -1,0 +1,30 @@
+aubakirova7@lab01-ubuntu:~$ cat evidence/array-rebuilt.txt
+/dev/md0:
+           Version : 1.2
+     Creation Time : Sun Nov  8 16:33:18 2026
+        Raid Level : raid1
+        Array Size : 2094080 (2045.00 MiB 2144.34 MB)
+     Used Dev Size : 2094080 (2045.00 MiB 2144.34 MB)
+      Raid Devices : 2
+     Total Devices : 3
+       Persistence : Superblock is persistent
+
+       Update Time : Sun Nov  8 16:48:28 2026
+             State : clean 
+    Active Devices : 2
+   Working Devices : 2
+    Failed Devices : 1
+     Spare Devices : 0
+
+Consistency Policy : resync
+
+              Name : lab01-ubuntu:0  (local to host lab01-ubuntu)
+              UUID : a6016f10:9fb8f0b4:f3f5edcc:7eb30e9a
+            Events : 38
+
+    Number   Major   Minor   RaidDevice State
+       2     253       48        0      active sync   /dev/vdd
+       1     253       32        1      active sync   /dev/vdc
+
+       0     253       16        -      faulty   /dev/vdb
+aubakirova7@lab01-ubuntu:~$ 
