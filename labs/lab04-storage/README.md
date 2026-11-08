@@ -1,6 +1,7 @@
 # Lab 4 — Partition, mirror, fail, recover
 
-Pair: Samira Aubakirova   Driver first half: Samira Aubakirova
+Pair: Samira Aubakirova 
+Driver first half: Samira Aubakirova
 Machine: macOS (Host), guests: Windows 11 Eval, Ubuntu Server 24.04 (UTM)
 Date: 08.11.2026
 
