@@ -1,0 +1,3 @@
+aubakirova7@lab01-ubuntu:~$ cat evidence/checksum-before.txt
+afcadcefa46da5939925b346b4c121088af0ac9860542ee429100c5cb9d62a75  /mnt/raid1/testfile.txt
+aubakirova7@lab01-ubuntu:~$ 
