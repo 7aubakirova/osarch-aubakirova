@@ -1,0 +1,13 @@
+Last login: Sat Oct 24 19:14:29 2026 from 192.168.64.1
+aubakirova7@lab01-ubuntu:~$ cat evidence/lsblk-before.txt
+NAME                       SIZE FSTYPE      TYPE MOUNTPOINT
+sr0                       1024M             rom  
+vda                         64G             disk 
+├─vda1                       1G vfat        part /boot/efi
+├─vda2                       2G ext4        part /boot
+└─vda3                    60.9G LVM2_member part 
+  └─ubuntu--vg-ubuntu--lv 30.5G ext4        lvm  /
+vdb                          2G             disk 
+vdc                          2G             disk 
+vdd                          2G             disk 
+aubakirova7@lab01-ubuntu:~$ 
