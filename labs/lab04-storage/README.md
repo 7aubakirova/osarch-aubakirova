@@ -1,12 +1,11 @@
-# Lab 4 — Partition, mirror, fail, recover
+Lab 4 — Partition, mirror, fail, recover
 
-Pair: Samira Aubakirova
-Machine: <host OS>, guests: Windows 11 Eval, Ubuntu Server <version>
-Date: <08.11.2026>
+Pair: Samira Aubakirova Machine: , guests: Windows 11 Eval, Ubuntu Server Date: <08.11.2026>
 
-## What I did
+What I did
+
 Check initial block devices layout:
-```bash
+
 lsblk -o NAME,SIZE,FSTYPE,TYPE,MOUNTPOINT
 
 
@@ -18,20 +17,16 @@ Initialize-Disk -Number 1 -PartitionStyle GPT
 New-Partition -DiskNumber 1 -UseMaximumSize -DriveLetter E
 Format-Volume -DriveLetter E -FileSystem NTFS -NewFileSystemLabel "DATA"
 Get-Disk -Number 1 | Select Number, PartitionStyle, Size
-```
+Partition style:on, mirror, fai Why: <e.g. GPT: disk > 2 TB is possible, no 4-primary-partition limit, backup partition table, required for UEFI boot>.
 
-Partition style:on, mirror, fai Why: <e.g. GPT: disk > 2 TB is possible, 
-no 4-primary-partition limit, backup partition table, required for UEFI boot>.
+Linux: partition, format, mirror
 
-### Linux: partition, format, mirror
-rver <version>
-Date: <DD.MM.YYYY>
+rver Date: <DD.MM.YYYY>
 
-## What I did
+What I did
 
-### Windows: partition, format, letter
+Windows: partition, format, letter
 
-```powershell
 Get-Disk
 Initialize-Disk -Number 1 -PartitionStyle GPT
 New-Partition -DiskNumber 1 -UseMaximumSize -DriveLetter E
@@ -101,4 +96,5 @@ sudoand repeated the create.>
 ### Windows: paandab 4 — Partitionwith both disks active,rror, fa- [evidence/array-degraded.txt](evidence/array-degraded.txt) — array with one disk failed,alf: <Su still mounted
 - [evidence/checksum-before.txt](evidence/checksum-before.txt) — sha256 of the test file before the failure
 - [evidence/checksum-after-failure.txt](evidence/checksum-after-failure.txt) — same sha256 on the degraded array, proves the data survived
+- [evidence/array-rebuilt.txt](evidence/array-rebuilt.txt) — rebuild finished,mber 1 -again with the third disky, proves the data survived
 - [evidence/array-rebuilt.txt](evidence/array-rebuilt.txt) — rebuild finished,mber 1 -again with the third disk
