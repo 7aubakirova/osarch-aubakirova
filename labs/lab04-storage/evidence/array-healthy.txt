@@ -1,0 +1,9 @@
+Consistency Policy : resync
+
+              Name : lab01-ubuntu:0  (local to host lab01-ubuntu)
+              UUID : a6016f10:9fb8f0b4:f3f5edcc:7eb30e9a
+            Events : 17
+
+    Number   Major   Minor   RaidDevice State
+       0     253       16        0      active sync   /dev/vdb
+       1     253       32        1      active sync   /dev/vdc
