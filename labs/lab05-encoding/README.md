@@ -31,14 +31,14 @@ sha256sum staff-broken.csv
 staff-fixed.csv: Unicode text, UTF-8 (with BOM) text
 staff-fixed.csv: Unicode text, UTF-8 (with BOM) text
 919027f1f8c71d85cba3f12aad0f6c927d4e0450cfb2a2d63378a69f14cab270  staff-broken.csv
-Result
+##Result
  Identified the source encoding of ⁠staff-broken.csv⁠ as RK1048 (СТ РК 1048-2002) with ⁠CRLF⁠ line endings (⁠0x0D 0x0A⁠) and no UTF-8 BOM (first 16 bytes: ⁠d2 e0 e1 2e b9 3b d4 c8 ce 3b c4 ee eb e6 ed ee⁠, decoding to ⁠Таб.№;ФИО;Должно⁠).
  Automated remediation in ⁠scripts/fix.sh⁠ by transcoding ⁠RK1048 -> UTF-8⁠ via ⁠iconv⁠, prepending a UTF-8 BOM (⁠EF BB BF⁠), and normalizing line endings from ⁠CRLF⁠ to ⁠LF⁠.
  Confirmed ⁠staff-fixed.csv⁠ is detected as ⁠Unicode text, UTF-8 (with BOM) text⁠ with LF endings, renders Cyrillic and Kazakh characters cleanly across terminal (⁠cat⁠), Excel, and spreadsheet viewers, and leaves ⁠staff-broken.csv⁠ untouched (⁠sha256sum⁠ unchanged).
 What did not work the first time
  Assuming CP1251 (⁠Windows-1251⁠) as the source encoding: Initially testing standard Russian Windows-1251 decoding corrupted Kazakh-specific Cyrillic letters (⁠Ә⁠, ⁠Ғ⁠, ⁠Қ⁠, ⁠Ң⁠, ⁠Ө⁠, ⁠Ұ⁠, ⁠Ү⁠, ⁠І⁠). Checking the regional encoding list (⁠iconv -l⁠) revealed RK1048 (Kazakhstan national 8-bit standard), which decoded both Russian and Kazakh names accurately.
  Opening UTF-8 CSV without BOM in Excel: Converting strictly to UTF-8 without a Byte Order Mark (⁠EF BB BF⁠) still caused Excel to misinterpret the encoding on double-click; prepending ⁠EF BB BF⁠ in ⁠scripts/fix.sh⁠ resolved automatic UTF-8 detection.
-Evidence
+ ##Evidence
  ⁠evidence/staff-broken.csv⁠ — original unmodified input file in RK1048 encoding with CRLF line endings (SHA-256: ⁠919027f1f8c71d85cba3f12aad0f6c927d4e0450cfb2a2d63378a69f14cab270⁠).  
  ⁠evidence/staff-fixed.csv⁠ — remediated output file in UTF-8 with BOM (⁠EF BB BF⁠) and Unix LF line endings.  
  ⁠evidence/file-before.txt⁠ — ⁠file⁠ and ⁠file -e csv⁠ output showing ⁠Non-ISO extended-ASCII text, with CRLF line terminators⁠ before conversion.  
