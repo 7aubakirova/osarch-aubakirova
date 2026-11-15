@@ -13,5 +13,5 @@
    - **Compatibility notes:** Ryzen 7 7700 + MSI PRO B650M-P, 2×16 GB DDR5-5600, Kingston KC3000 1 TB.
 
 4. **Build 4 — Designer (1,025,000 KZT):**
-   - **PCPartPicker URL:** (paste Build 4 link here)
+   - **PCPartPicker URL:** https://pcpartpicker.com/list/MkxY2k
    - **Compatibility notes:** Core i5-13400F + MSI PRO B760M-P DDR4 + RTX 4060 8 GB + ASUS ProArt PA278QV.
