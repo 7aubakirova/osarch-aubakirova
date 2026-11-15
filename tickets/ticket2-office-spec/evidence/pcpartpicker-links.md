@@ -6,7 +6,7 @@
 
 2. **Build 2 — Sales Manager (544,000 KZT):**
    - **PCPartPicker URL:** https://pcpartpicker.com/list/MfXHn2
-   - **Compatibility notes:** Ryzen 5 5600G + MSI B550M PRO-VDH WIFI, 2×16 GB DDR4-3200.
+   - **Compatibility notes:** Ryzen 5 5600GT + MSI B550M PRO-VDH WIFI, 2×16 GB DDR4-3200.
 
 3. **Build 3 — Web Developer (865,000 KZT):**
    - **PCPartPicker URL:** https://pcpartpicker.com/list/3vPsvR
