@@ -1,0 +1,38 @@
+role,component,model,price_kzt,source,date
+Accountant,CPU,AMD Ryzen 5 5600G (6C/12T Integrated Radeon),68000,Shop.kz,2026-11-15
+Accountant,Motherboard,ASUS PRIME A520M-K (mATX AM4),34000,Shop.kz,2026-11-15
+Accountant,RAM,Kingston FURY Beast 16GB (2x8GB) DDR4-3200,26000,Shop.kz,2026-11-15
+Accountant,Storage,Kingston NV2 1TB M.2 2280 PCIe 4.0 NVMe SSD,35000,Shop.kz,2026-11-15
+Accountant,Case + PSU,DeepCool Matrexx 30 + DeepCool PF450 450W 80+,36000,Shop.kz,2026-11-15
+Accountant,Cooler,DeepCool GAMMAXX 200T,9000,Shop.kz,2026-11-15
+Accountant,OS,Microsoft Windows 11 Pro 64-bit OEM/ESD License,82000,Kaspi.kz,2026-11-15
+Accountant,Monitor,Dell SE2422H 23.8" Full HD IPS 75Hz,68000,Shop.kz,2026-11-15
+Accountant,Peripherals & UPS,Logitech MK120 Combo + APC Back-UPS 650VA,90000,Kaspi.kz,2026-11-15
+Sales Manager,CPU,AMD Ryzen 5 5600G (6C/12T Integrated Radeon),68000,Shop.kz,2026-11-15
+Sales Manager,Motherboard,MSI B550M PRO-VDH WIFI (mATX AM4),54000,Shop.kz,2026-11-15
+Sales Manager,RAM,Kingston FURY Beast 32GB (2x16GB) DDR4-3200,52000,Shop.kz,2026-11-15
+Sales Manager,Storage,Kingston NV2 1TB M.2 2280 PCIe 4.0 NVMe SSD,35000,Shop.kz,2026-11-15
+Sales Manager,Case + PSU,DeepCool CC360 + DeepCool PK550D 550W 80+ Bronze,49000,Shop.kz,2026-11-15
+Sales Manager,Cooler,DeepCool AG300,11000,Shop.kz,2026-11-15
+Sales Manager,OS,Microsoft Windows 11 Pro 64-bit OEM/ESD License,82000,Kaspi.kz,2026-11-15
+Sales Manager,Monitor,LG 24MR400-B 23.8" Full HD IPS 100Hz,73000,Shop.kz,2026-11-15
+Sales Manager,Peripherals & Headset,Logitech MK270 Wireless + Logitech H390 USB Headset + Webcam,120000,Kaspi.kz,2026-11-15
+Web Developer,CPU,AMD Ryzen 7 7700 (8C/16T AM5 Integrated Radeon),168000,Shop.kz,2026-11-15
+Web Developer,Motherboard,MSI PRO B650M-P (mATX AM5 DDR5),76000,Shop.kz,2026-11-15
+Web Developer,RAM,Kingston FURY Beast 32GB (2x16GB) DDR5-5600,74000,Shop.kz,2026-11-15
+Web Developer,Storage,Kingston KC3000 1TB M.2 PCIe 4.0 NVMe (7000MB/s),56000,Shop.kz,2026-11-15
+Web Developer,Case + PSU,DeepCool CH370 + DeepCool PK650D 650W 80+ Bronze,64000,Shop.kz,2026-11-15
+Web Developer,Cooler,DeepCool AK400 Zero Dark,22000,Shop.kz,2026-11-15
+Web Developer,OS,Microsoft Windows 11 Pro 64-bit OEM/ESD License,82000,Kaspi.kz,2026-11-15
+Web Developer,Monitor,LG UltraGear 27GR75Q-B 27" QHD 2560x1440 IPS,158000,Shop.kz,2026-11-15
+Web Developer,Peripherals & UPS,Keychron C3 Pro Mechanical + Logitech G102 + APC Back-UPS 850VA,165000,Kaspi.kz,2026-11-15
+Designer,CPU,Intel Core i5-13400F (10C/16T LGA1700),112000,Shop.kz,2026-11-15
+Designer,Motherboard,MSI PRO B760M-P DDR4 (mATX LGA1700),66000,Shop.kz,2026-11-15
+Designer,RAM,Kingston FURY Beast 32GB (2x16GB) DDR4-3200,52000,Shop.kz,2026-11-15
+Designer,GPU,ASUS Dual GeForce RTX 4060 OC 8GB GDDR6,195000,Shop.kz,2026-11-15
+Designer,Storage,Samsung 980 PRO 1TB M.2 PCIe 4.0 NVMe SSD,62000,Shop.kz,2026-11-15
+Designer,Case + PSU,DeepCool CH370 + DeepCool PK650D 650W 80+ Bronze,64000,Shop.kz,2026-11-15
+Designer,Cooler,DeepCool AK400,20000,Shop.kz,2026-11-15
+Designer,OS,Microsoft Windows 11 Pro 64-bit OEM/ESD License,82000,Kaspi.kz,2026-11-15
+Designer,Monitor,ASUS ProArt Display PA278QV 27" QHD IPS 100% sRGB,212000,Shop.kz,2026-11-15
+Designer,Peripherals & UPS,Logitech MX Master 3S + Logitech K380 + APC Back-UPS 850VA,160000,Kaspi.kz,2026-11-15
