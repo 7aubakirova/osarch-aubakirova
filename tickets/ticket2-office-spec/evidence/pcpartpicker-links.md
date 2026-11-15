@@ -5,7 +5,7 @@
    - **Compatibility notes:** Ryzen 5 5600GT + ASUS PRIME A520M-K, 2×8 GB DDR4-3200, 149W estimated draw.
 
 2. **Build 2 — Sales Manager (544,000 KZT):**
-   - **PCPartPicker URL:** (paste Build 2 link here)
+   - **PCPartPicker URL:** https://pcpartpicker.com/list/MfXHn2
    - **Compatibility notes:** Ryzen 5 5600G + MSI B550M PRO-VDH WIFI, 2×16 GB DDR4-3200.
 
 3. **Build 3 — Web Developer (865,000 KZT):**
