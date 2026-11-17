@@ -36,13 +36,10 @@
 
 ## Tool of the Week
 
-Week __ — `____` : [tools/____.md](tools/)
+Week 7 - `ncdu` : [tools/ncdu.md](tools/ncdu.md)
 
 ## Use of AI assistants
 
-| Assignment | Tool | What for |
-|------------|------|----------|
-| | | |
-
+| Tool of the Week (`ncdu`) | Gemini | Preparing the 5-minute demo script, macOS Homebrew setup, and `tools/ncdu.md` outline |
 > Declaring this costs nothing. Not declaring it, when it comes up at the
 > defence, costs the assignment.
